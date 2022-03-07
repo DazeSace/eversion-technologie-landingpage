@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar";
 import Image from 'next/image'
 import {BsFillCheckCircleFill} from "react-icons/bs";
 import Head from "next/head";
+import Hero from "../components/Hero";
 
 
 export default function Home() {
@@ -14,15 +15,7 @@ export default function Home() {
             </Head>
             <NavBar/>
             <main className={'font-poppins-default'}>
-                <div className={'content-base w-11/12 mx-auto '}>
-                    <p className={'text-5xl mt-14 font-poppins font-extralight'}>Präzise Ganganalyse für zuhause</p>
-                    <p className={'text-lg mt-16'}>Finde heraus wie sich dein Gang auf deinen gesamten Körper auswirkt.
-                        Ganz easy und bequem von Zuhause
-                        und unterwegs!</p>
-                    <div className={'flex justify-center rounded-lg font-bold bg-xblue py-4 w-2/3 mx-auto mt-20'}>
-                        <p>Los geht‘s!</p>
-                    </div>
-                </div>
+                <Hero/>
                 <div className={'bg-xblue pb-10 mt-20'}>
                     <div className={'content-base w-11/12 mx-auto'}>
                         <div className={'grid grid-cols-2 gap-x-1'}>
