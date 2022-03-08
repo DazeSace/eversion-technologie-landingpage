@@ -4,7 +4,7 @@ import Image from "next/image";
 const AnalysisTiles = () => {
     return (
         <div
-            className={'content flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:justify-around mt-12'}>
+            className={'content flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:justify-around mt-20'}>
             <div className={'text-center rounded-xl p-10 shadow-xl border border-gray-50'}>
                 <div className={'h-20 w-20 mx-auto'}>
                     <Image src={'/images/shoe.svg'} width={100} height={100}/>
