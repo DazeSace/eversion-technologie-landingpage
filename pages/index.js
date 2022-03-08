@@ -7,6 +7,7 @@ import AnalysisTiles from "../components/AnalysisTiles";
 import Eval from "../components/Eval";
 import Customers from "../components/Customers";
 import Footer from "../components/Footer";
+import Improve from "../components/Improve";
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
                 <AnalysisTiles/>
                 <Eval/>
                 <Customers/>
+                <Improve/>
             </main>
             <Footer/>
         </div>
