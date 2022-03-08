@@ -11,7 +11,7 @@ const HelpinYa = () => {
                     <div className={'content lg:w-1/2 flex justify-center '}>
                         <div className={'grid grid-cols-2 gap-x-1.5 w-5/6 -mt-10'}>
                             <div className={'relative'}>
-                                <Image src={'/images/up-left.svg'} width={400} height={400}/>
+                                <Image src={'/images/up-left.png'} width={400} height={400}/>
                                 <div
                                     className={'absolute inset-x-0 top-0 text-center pt-14 sm:pt-24 md:pt-32 lg:pt-16 xl:pt-24 text-xyellow'}>
                                     <p className={'text-3xl font-poppins tracking-wide sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl'}>4000</p>
@@ -19,7 +19,7 @@ const HelpinYa = () => {
                                 </div>
                             </div>
                             <div className={'relative'}>
-                                <Image src={'/images/up-right.svg'} width={400} height={400}/>
+                                <Image src={'/images/up-right.png'} width={400} height={400}/>
                                 <div
                                     className={'absolute inset-x-0 top-0 text-center pt-14 sm:pt-24 md:pt-32 lg:pt-16 xl:pt-24 text-xyellow'}>
                                     <p className={'text-3xl font-poppins tracking-wide sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl'}>100%</p>
@@ -27,7 +27,7 @@ const HelpinYa = () => {
                                 </div>
                             </div>
                             <div className={'relative'}>
-                                <Image src={'/images/down-left.svg'} width={400} height={400}/>
+                                <Image src={'/images/down-left.png'} width={400} height={400}/>
                                 <div
                                     className={'absolute inset-x-0 top-0 text-center pt-14 sm:pt-24 md:pt-32 lg:pt-16 xl:pt-24 text-xyellow'}>
                                     <p className={'text-3xl font-poppins tracking-wide sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl'}>5min</p>
@@ -35,7 +35,7 @@ const HelpinYa = () => {
                                 </div>
                             </div>
                             <div className={'relative'}>
-                                <Image src={'/images/down-right.svg'} width={400} height={400}/>
+                                <Image src={'/images/down-right.png'} width={400} height={400}/>
                                 <div
                                     className={'absolute inset-x-0 top-0 text-center pt-14 sm:pt-24 md:pt-32 lg:pt-16 xl:pt-24 text-xyellow'}>
                                     <p className={'text-3xl font-poppins tracking-wide sm:text-4xl md:text-5xl lg:text-3xl xl:text-4xl'}>8h</p>
