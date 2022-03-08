@@ -6,7 +6,7 @@ const Hero = () => {
         <div className={'content'}>
             <div className={'lg:w-1/2'}>
                 <p className={'text-5xl mt-14 font-poppins font-extralight leading-normal'}>Präzise Ganganalyse für
-                    zuhause</p>
+                    Zuhause</p>
                 <p className={'text-lg mt-10 leading-relaxed'}>Finde heraus wie sich dein Gang auf deinen gesamten
                     Körper auswirkt.
                     Ganz easy und bequem von Zuhause
@@ -19,7 +19,7 @@ const Hero = () => {
                 </Link>
             </div>
             <div className={'hidden lg:flex justify-center w-1/2'}>
-                <Image src={'/images/phone-hero.png'} width={500} height={500} layout={"fixed"}/>
+                <Image src={'/images/juicy-boi.png'} width={500} height={500} layout={"fixed"}/>
             </div>
         </div>
     )

@@ -27,7 +27,7 @@ const Eval = () => {
                 </Link>
             </div>
             <div className={'hidden lg:flex justify-center w-1/2'}>
-                <Image src={'/images/phone-hero.png'} width={500} height={500} layout={"fixed"}/>
+                <Image src={'/images/standing-boi.png'} width={500} height={500} layout={"fixed"}/>
             </div>
         </div>
     )

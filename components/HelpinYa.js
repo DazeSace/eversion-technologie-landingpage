@@ -5,8 +5,9 @@ import {BsFillCheckCircleFill} from "react-icons/bs";
 const HelpinYa = () => {
     return (
         <div className={'mt-20'}>
-            <Image src={'/images/top-wave.svg'} width={1440} height={88}/>
-            <div className={'bg-xblue pb-10 -mt-3'}>
+
+            <Image src={'/images/top-wave.svg'} height={101} width={1450} layout={'responsive'}/>
+            <div className={'bg-xblue pb-10 -mt-5'}>
                 <div className={'flex flex-col lg:flex-row'}>
                     <div className={'content lg:w-1/2 flex justify-center '}>
                         <div className={'grid grid-cols-2 gap-x-1.5 w-5/6 -mt-10'}>
@@ -46,14 +47,14 @@ const HelpinYa = () => {
                     </div>
                     <div className={'lg:w-1/2 content flex flex-col justify-center'}>
                         <div className={'lg:w-5/6'}>
-                            <p className={'text-3xl font-poppins mt-16 lg:mt-0'}>Wir helfen DIR</p>
+                            <p className={'text-3xl font-poppins mt-16 lg:mt-0'}>Wir helfen dir</p>
                             <p className={'text-lg mt-6 leading-relaxed'}>Wir helfen Menschen, die minimale
                                 Fehlstellungen haben, eine
                                 Entspannung der Muskulatur zu
                                 erreichen. In unseren Analysen werden nach Ursachen für unerklärliche
                                 Muskel-Skelett-Beschwerden gesucht. Wir können herausfinden, ob das Problem bereits in
                                 den
-                                Schuhe seinen Ursprung findet und mittels individueller Anpassung optimal
+                                Schuhen seinen Ursprung findet und mittels individueller Anpassung optimal
                                 ausgleichen.</p>
                             <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
                                 <div
@@ -65,23 +66,23 @@ const HelpinYa = () => {
                     </div>
                 </div>
                 <div
-                    className={'flex flex-col mx-auto w-11/12 lg:flex-row space-y-3 lg:space-y-0 justify-evenly mt-16'}>
-                    <div className={'flex text-xl'}>
+                    className={'flex flex-col mx-auto w-11/12 lg:flex-row space-y-3 lg:space-y-0 justify-evenly mt-16 font-poppins text-2xl'}>
+                    <div className={'flex'}>
                         <p className={'pt-1 text-white'}><BsFillCheckCircleFill/></p>
                         <p className={'pl-4'}>Überall & immer durchführbar</p>
                     </div>
-                    <div className={'flex text-xl'}>
+                    <div className={'flex'}>
                         <p className={'pt-1 text-white'}><BsFillCheckCircleFill/></p>
                         <p className={'pl-4'}>Kostengünstig</p>
                     </div>
-                    <div className={'flex text-xl'}>
+                    <div className={'flex'}>
                         <p className={'pt-1 text-white'}><BsFillCheckCircleFill/></p>
                         <p className={'pl-4'}>Einzigartige Technologie</p>
                     </div>
                 </div>
             </div>
             <div className={'-mt-2'}>
-                <Image src={'/images/bot-wave.svg'} width={1440} height={101}/>
+                <Image src={'/images/bot-wave.svg'} height={101} width={1450} layout={'responsive'}/>
             </div>
         </div>
     )

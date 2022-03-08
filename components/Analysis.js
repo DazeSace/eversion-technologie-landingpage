@@ -6,14 +6,14 @@ const Analysis = () => {
     return (
         <div className={'mt-12 content flex flex-col lg:flex-row'}>
             <div className={'hidden lg:flex justify-center w-1/2'}>
-                <Image src={'/images/phone-hero.png'} width={500} height={500} layout={"fixed"}/>
+                <Image src={'/images/walky-boi.png'} width={500} height={500} layout={"fixed"}/>
             </div>
             <div className={'lg:w-1/2'}>
                 <p className={'text-3xl font-poppins lg:mt-20'}>Deine Analyse</p>
                 <p className={'text-lg mt-10 leading-relaxed'}>Um eine Analyse bei dir durchzuführen, senden wir dir
                     Messsohlen
                     zu, welche du in deinen Schuh legst. Über unsere App kannst du diese konfigurieren und mit
-                    deiner Analyse starten. Du benötigst kein Fachwissen und kannst alles bequem von zuhause
+                    deiner Analyse starten. Du benötigst kein Fachwissen und kannst alles bequem von Zuhause
                     oder unterwegs starten. Wichtig wäre lediglich, dass du am Tag der Messung etwas läufst,
                     damit wir genug Daten für ein aussagekräftiges Ergebnis haben.</p>
                 <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
