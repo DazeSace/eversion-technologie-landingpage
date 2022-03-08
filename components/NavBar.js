@@ -1,17 +1,12 @@
-import {AiOutlineMenu} from "react-icons/ai";
-
+import Image from 'next/image'
 
 const NavBar = () => {
     return (
-        <div className={'py-4'}>
+        <div className={'py-4 lg:py-8'}>
             <div className={'flex w-11/12 mx-auto justify-between'}>
-                <div className={'flex'}>
-                    <div className={'bg-red-400 h-12 w-12 '}>
-
-                    </div>
-                    <p className={'poppins-bold pl-2 pt-3 text-lg font-extralight'}>EVERSION TECHNOLOGIES</p>
+                <div className={'flex space-x-4'}>
+                    <Image src={'/images/logo.svg'} width={120} height={50}/>
                 </div>
-                <AiOutlineMenu className={'h-12 w-12 font-extralight'} onClick={() => console.log('Menu Button pressed')}/>
             </div>
         </div>
     )

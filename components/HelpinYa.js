@@ -44,7 +44,7 @@ const HelpinYa = () => {
                         </div>
                     </div>
                     <div className={'lg:w-1/2 content flex flex-col justify-center'}>
-                        <div className={'w-5/6'}>
+                        <div className={'lg:w-5/6'}>
                             <p className={'text-3xl font-poppins mt-16 lg:mt-0'}>Wir helfen DIR</p>
                             <p className={'text-lg mt-6 leading-relaxed'}>Wir helfen Menschen, die minimale Fehlstellungen haben, eine
                                 Entspannung der Muskulatur zu

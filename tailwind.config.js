@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['poppins', 'Helvetica', 'Arial', 'serif'],
-        'poppins-default': ['poppins-default', 'Helvetica', 'Arial', 'serif']
+        'poppins-default': ['poppins-default', 'Helvetica', 'Arial', 'serif'],
+        'poppins-light': ['poppins-light', 'Helvetica', 'Arial', 'serif'],
       }
     },
   },

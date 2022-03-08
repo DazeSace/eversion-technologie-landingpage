@@ -13,7 +13,15 @@
     font-family: 'poppins-default';
     font-display: swap;
     src: url('poppin-default.woff') format('woff');
-    font-weight: 400;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    font-display: swap;
+    src: url('poppin-light.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 

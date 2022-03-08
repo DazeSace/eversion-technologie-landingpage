@@ -8,7 +8,7 @@ import HelpinYa from "../components/HelpinYa";
 
 export default function Home() {
     return (
-        <div className={''}>
+        <div className={'text-xblack'}>
             <Head>
                 <title>Eversion Technologies</title>
                 <meta name="description" content="Eversion Technologies - Ganganalyse von Zuhause"/>
