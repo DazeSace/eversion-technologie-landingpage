@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import {BsFillCheckCircleFill} from "react-icons/bs";
 
 const HelpinYa = () => {
@@ -54,10 +55,12 @@ const HelpinYa = () => {
                                 den
                                 Schuhe seinen Ursprung findet und mittels individueller Anpassung optimal
                                 ausgleichen.</p>
-                            <div
-                                className={'flex cursor-pointer justify-center rounded-lg font-bold bg-white py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-10'}>
-                                <p>Jetzt ausprobieren</p>
-                            </div>
+                            <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
+                                <div
+                                    className={'flex cursor-pointer justify-center rounded-lg font-bold bg-white py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-10'}>
+                                    <p>Jetzt ausprobieren</p>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 const Eval = () => {
     return (
@@ -18,10 +19,12 @@ const Eval = () => {
                         <p className={''}>Deine Daten behandeln wir selbstverständlich vertraulich</p>
                     </div>
                 </div>
-                <div
-                    className={'flex cursor-pointer justify-center rounded-lg font-bold bg-white border-2 border-xblack py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-12'}>
-                    <p>Jetzt testen</p>
-                </div>
+                <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
+                    <div
+                        className={'flex cursor-pointer justify-center rounded-lg font-bold bg-white border-2 border-xblack py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-12'}>
+                        <p>Jetzt testen</p>
+                    </div>
+                </Link>
             </div>
             <div className={'hidden lg:flex justify-center w-1/2'}>
                 <Image src={'/images/phone-hero.png'} width={500} height={500} layout={"fixed"}/>

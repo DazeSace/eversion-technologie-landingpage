@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 
 const Analysis = () => {
@@ -15,10 +16,12 @@ const Analysis = () => {
                     deiner Analyse starten. Du benötigst kein Fachwissen und kannst alles bequem von zuhause
                     oder unterwegs starten. Wichtig wäre lediglich, dass du am Tag der Messung etwas läufst,
                     damit wir genug Daten für ein aussagekräftiges Ergebnis haben.</p>
-                <div
-                    className={'flex cursor-pointer justify-center rounded-lg font-bold bg-xyellow py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-10'}>
-                    <p>Jetzt loslegen</p>
-                </div>
+                <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
+                    <div
+                        className={'flex cursor-pointer justify-center rounded-lg font-bold bg-xyellow py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-10'}>
+                        <p>Jetzt loslegen</p>
+                    </div>
+                </Link>
             </div>
         </div>
     )
