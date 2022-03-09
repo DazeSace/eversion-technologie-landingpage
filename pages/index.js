@@ -12,7 +12,7 @@ import Improve from "../components/Improve";
 
 export default function Home() {
     return (
-        <div className={'text-xblack'}>
+        <>
             <Head>
                 <title>Eversion Technologies</title>
                 <meta name="description" content="Eversion Technologies - Ganganalyse von Zuhause"/>
@@ -38,6 +38,6 @@ export default function Home() {
                 <Improve/>
             </main>
             <Footer/>
-        </div>
+        </>
     )
 }
