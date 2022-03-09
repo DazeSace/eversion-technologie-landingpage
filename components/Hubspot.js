@@ -29,10 +29,10 @@ const Hubspot = () => {
 
     return (
         <div className={'font-poppins-default'}>
-            <p className={'text-lg'}>Vielen Dank für dein Interesse. </p>
-            <p>Leider sind wir noch nicht gelauncht. Trag dich ein und bleib auf dem Laufenden. </p>
+            <p className={'text-lg font-poppins'}>Vielen Dank für dein Interesse!</p>
+            <p className={'mt-4'}>Leider sind wir noch nicht gelauncht. Trag dich ein und bleib auf dem Laufenden. </p>
             <p>Wir melden uns bei dir, sobald es etwas Neues gibt.</p>
-            <div id={'hub'}/>
+            <div className={'mt-6'} id={'hub'}/>
         </div>
     )
 }
