@@ -1,8 +1,7 @@
 import Head from "next/head";
 import NavBar from "../components/NavBar";
-
 import Footer from "../components/Footer";
-
+import Hubspot from "../components/Hubspot";
 
 export default function Hub() {
     return (
@@ -20,11 +19,12 @@ export default function Hub() {
                 <meta name="msapplication-TileColor" content="#da532c"/>
                 <meta name="msapplication-config" content="/favicons/browserconfig.xml"/>
                 <meta name="theme-color" content="#ffffff"/>
-
             </Head>
             <main className={'font-poppins-default'}>
                 <NavBar/>
-
+                <div className={'w-11/12 mx-auto'}>
+                    <Hubspot/>
+                </div>
             </main>
             <Footer/>
         </div>
