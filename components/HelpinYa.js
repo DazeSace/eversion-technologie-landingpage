@@ -56,7 +56,7 @@ const HelpinYa = () => {
                                 den
                                 Schuhen seinen Ursprung findet und mittels individueller Anpassung optimal
                                 ausgleichen.</p>
-                            <Link href={'https://share-eu1.hsforms.com/1A_dkU6agRK-gpMEyYGpMOAf582b'}>
+                            <Link href={'/hub'}>
                                 <div
                                     className={'flex hover cursor-pointer justify-center rounded-lg font-bold bg-white py-4 w-2/3 lg:w-1/2 xl:w-2/5 mx-auto lg:mx-0 mt-10'}>
                                     <p>Jetzt ausprobieren</p>
