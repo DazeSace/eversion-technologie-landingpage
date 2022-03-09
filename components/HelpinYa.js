@@ -82,7 +82,7 @@ const HelpinYa = () => {
                 </div>
             </div>
             <div className={'-mt-2'}>
-                <Image src={'/images/bot-wave.svg'} height={101} width={1450} layout={'responsive'}/>
+                <Image src={'/images/bot-wave.svg'} height={101} width={1441} layout={'responsive'}/>
             </div>
         </div>
     )
