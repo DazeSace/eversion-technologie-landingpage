@@ -34,8 +34,7 @@ export default function Imprint() {
                     </p>
                     <p>
                         Kontakt: <br/>
-                        Telefon: +4915735475318<br/>
-                        E-Mail: <a href='mailto:melzer.david2000@gmail.com'>melzer.david2000@gmail.com</a><br/></p>
+                        E-Mail: <a href='mailto:info@eversion.tech'>info@eversion.tech</a><br/></p>
                     <p>
                         Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
                         David Melzer <br/>

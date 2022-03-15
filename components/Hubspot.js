@@ -23,7 +23,7 @@ const Hubspot = () => {
         <p className={'text-lg font-poppins'}>Vielen Dank für dein Interesse!</p>
         <p className={'mt-4'}>Leider sind wir noch nicht gelauncht. Trag dich ein und bleib auf dem Laufenden. </p>
         <p>Wir melden uns bei dir, sobald es etwas Neues gibt.</p>
-        <div className={'lg:w-2/3 mt-6'} id={'hub'}/>
+        <div className={'mt-6'} id={'hub'}/>
         <p>Wir senden dir eine Bestätigungsmail zu, bitte bestätige diese. Die E-Mail kann möglicherweise im
             Spam-Ordner gelandet sein</p>
     </div>)

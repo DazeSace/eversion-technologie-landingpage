@@ -20,9 +20,9 @@ export default function Hub() {
                 <meta name="msapplication-config" content="/favicons/browserconfig.xml"/>
                 <meta name="theme-color" content="#ffffff"/>
             </Head>
-            <main className={'font-poppins-default'}>
+            <main className={'font-poppins-default '}>
                 <NavBar/>
-                <div className={'w-11/12 mx-auto'}>
+                <div className={'lg:w-1/2 mx-auto'}>
                     <Hubspot/>
                 </div>
             </main>
