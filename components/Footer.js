@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link'
 import {BsInstagram} from "react-icons/bs";
-import {IoLogoLinkedin} from "react-icons/io";
+import {IoLogoLinkedin, IoLogoFacebook} from "react-icons/io";
 import {FiMail} from "react-icons/fi";
 
 const Footer = () => {
@@ -22,6 +22,11 @@ const Footer = () => {
                     <div className={'cursor-pointer hover'}>
                         <Link href={'mailto:info@eversion.tech'}>
                             <FiMail/>
+                        </Link>
+                    </div>
+                    <div className={'cursor-pointer hover'}>
+                        <Link href={'https://www.facebook.com/Eversion-Technologies-102467332406727'}>
+                            <IoLogoFacebook/>
                         </Link>
                     </div>
                 </div>
