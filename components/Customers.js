@@ -16,7 +16,7 @@ const Customers = () => {
                                     <Image src={'/images/man.png'} width={100} height={100}/>
                                 </div>
                                 <div className={'ml-2'}>
-                                    <p className={'text-xl font-poppins'}>Viezh Robert</p>
+                                    <p className={'text-xl font-poppins'}>Diego Rodriguez</p>
                                     <p className={'text-sm'}>Ravensburg, Deutschland</p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const Customers = () => {
                                     <Image src={'/images/girl.png'} width={100} height={100}/>
                                 </div>
                                 <div className={'ml-2'}>
-                                    <p className={'text-xl font-poppins'}>Yessica Christy</p>
+                                    <p className={'text-xl font-poppins'}>Jessica Martin</p>
                                     <p className={'text-sm'}>München, Deutschland</p>
                                 </div>
                             </div>
@@ -65,10 +65,10 @@ const Customers = () => {
                         <div className={'flex justify-between'}>
                             <div className={'flex'}>
                                 <div className={'h-12 w-12 rounded-full'}>
-                                    <Image src={'/images/juliana.png'} width={100} height={100}/>
+                                    <Image src={'/images/woman.png'} width={100} height={100}/>
                                 </div>
                                 <div className={'ml-2'}>
-                                    <p className={'text-xl font-poppins'}>Juliana Weiß</p>
+                                    <p className={'text-xl font-poppins'}>Juliana Gerardi</p>
                                     <p className={'text-sm'}>Kaiserslautern, Deutschland</p>
                                 </div>
                             </div>
