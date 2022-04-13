@@ -32,7 +32,7 @@ const Customers = () => {
                     <p className={'mt-1'}>“Wow... Ich bin so glücklich, dass ich diese Analyse gemacht habe. Endlich
                         weiss ich, dass meine
                         Schuhe meine Wadenkrämpfe verursachen. Seit ich die Insole täglich trage, kann ich endlich
-                        wieder in Ruhe schlafen ohne ständig von schmerzhaften Krämpfen geweckt zu werden.</p>
+                        wieder in Ruhe schlafen ohne ständig von schmerzhaften Krämpfen geweckt zu werden.“</p>
                 </div>
                 <div className={'flex flex-col rounded-xl lg:w-1/4 shadow-xl bg-xblue p-6'}>
                     <div className={'flex flex-col'}>
